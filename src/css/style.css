@@ -1,0 +1,761 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@700&display=swap");
+/* Colors */
+* {
+  font-family: "Inter";
+  font-style: normal;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* HEADER STYLE */
+main h1 span.color {
+  color: #8896AB;
+}
+main section {
+  /* section */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 120px;
+  gap: 63px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+main section .presentation {
+  width: 100%;
+}
+main section .presentation span.tag {
+  /* span.tag */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main section .presentation span.tag hr {
+  width: 16px;
+  height: 2px;
+  background: #8198BB;
+}
+main section .presentation span.tag p {
+  /* Above title */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  /* identical to box height, or 200% */
+  letter-spacing: 7.5px;
+  color: #8198BB;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main section .presentation h1.section-title {
+  /* Title */
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main section .presentation h1.section-title span.blue {
+  color: #3B82F6;
+}
+main section .presentation p.section-description {
+  /* description */
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+main section .content {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main section .content ul.list {
+  /* items */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 65px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+main section .content ul.list li.item {
+  /* li.item */
+  list-style: none;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  height: 100%;
+}
+main section .content ul.list li.item div.cont {
+  /* div.content */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main section .content ul.list li.item div.cont .imagen {
+  /* imagen-list-style */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  /* Purple Light */
+  background: #F5F3FE;
+  border-radius: 16px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main section .content ul.list li.item div.cont h2 {
+  /* Title */
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+main section .content ul.list li.item div.cont p {
+  /* Description */
+  width: 100%;
+  height: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+main header {
+  /* Header */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin-bottom: 10%;
+  position: relative;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #FFFFFF;
+}
+main header nav {
+  /* navbar */
+  /* Auto layout */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 90px;
+  transition: padding 0.5s;
+  gap: 10px;
+  width: 100%;
+  height: 80px;
+  background: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main header nav .logo {
+  /* div.logo */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 40px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main header nav .logo img {
+  display: block;
+}
+main header nav .logo h1 {
+  padding: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #2A3342;
+}
+main header nav .logo h1 span {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+}
+main header nav ul {
+  /* ul */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+  width: 522px;
+  height: 19px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main header nav ul li {
+  /* li */
+  list-style: none;
+  /*Size*/
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 19px;
+}
+main header nav ul li a {
+  /* a */
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: auto;
+  left: 461px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #909AA0;
+}
+main header nav .resume {
+  /* div.resume */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 48px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+main header section {
+  /* section */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 60px;
+  gap: 4px;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+main header section .presentation {
+  /* presentation */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main header section .presentation span.tag {
+  /* span.tag */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+main header section .presentation span.tag hr {
+  width: 16px;
+  height: 2px;
+  background: #8198BB;
+}
+main header section .presentation span.tag p {
+  /* Above title */
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+  letter-spacing: 7.5px;
+  color: #8198BB;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main header section .presentation .name {
+  /* h1.name */
+  margin: 0;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main header section .presentation .description {
+  /* p.description */
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  /* Cinder */
+  color: #232E35;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+main header section .presentation .social {
+  /* div.social */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+main header section .imagen {
+  /* Imagen */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main header section .imagen img {
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 209px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+footer div.social {
+  /* socials */
+  opacity: 0.5;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 192px;
+  height: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+footer p.copyright {
+  /* Copyright */
+  width: 159px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* Cinder Light */
+  color: #656D72;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  main section {
+    padding: 35px 60px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main section .content {
+    display: flex;
+    justify-content: center;
+  }
+  main section .content ul.list {
+    /* items */
+    /* Auto layout */
+    align-items: center;
+    gap: 30px;
+    padding: 0 5%;
+  }
+  main section .content ul.list li.item {
+    justify-content: center;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main header nav {
+    padding: 35px 60px;
+  }
+  main header nav ul {
+    display: none;
+  }
+  main header nav ul li a {
+    opacity: 1;
+  }
+  main header nav .resume {
+    opacity: 1;
+  }
+  main header section {
+    justify-content: center;
+  }
+  main header section .presentation {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  main header section .presentation span.tag {
+    justify-content: center;
+  }
+  main header section .presentation .name {
+    display: flex;
+    justify-content: center;
+  }
+  main header section .presentation .description {
+    text-align: center;
+  }
+  main header section .presentation .social {
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  main section {
+    padding: 35px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main section .presentation span.tag {
+    justify-content: flex-start;
+  }
+  main section .presentation span.tag hr {
+    height: 1px;
+    opacity: 0.5;
+  }
+  main section .presentation span.tag p {
+    font-weight: 500;
+  }
+  main section .presentation h1.section-title {
+    text-align: left;
+    font-size: 7vw;
+    line-height: 40px;
+  }
+  main section .presentation p.section-description {
+    font-size: 14px;
+    line-height: 27px;
+    text-align: left;
+  }
+  main section .content {
+    display: flex;
+    justify-content: center;
+  }
+  main section .content ul.list {
+    align-items: center;
+    gap: 25px;
+    padding: 0;
+  }
+  main section .content ul.list li.item {
+    justify-content: center;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main section .content ul.list li.item div.cont h2 {
+    color: #8896AB;
+  }
+  main header nav {
+    padding: 35px 20px;
+  }
+  main header nav .logo {
+    gap: 6px;
+  }
+  main header nav .logo img {
+    display: block;
+  }
+  main header nav ul {
+    display: none;
+  }
+  main header nav ul li {
+    /* li */
+    list-style: none;
+    /*Size*/
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 19px;
+  }
+  main header nav ul li a {
+    /* a */
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: auto;
+    left: 461px;
+    top: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #909AA0;
+  }
+  main header nav .resume {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main header section {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 35px;
+    gap: 20px;
+  }
+  main header section .presentation {
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    /* Inside auto layout */
+    order: 2;
+  }
+  main header section .presentation .name {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 35px;
+  }
+  main header section .presentation .description {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 14px;
+    line-height: 27px;
+  }
+  main header section .presentation .social {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main header section .imagen {
+    width: 100%;
+  }
+}
+/* END HEADER STYLE *//*# sourceMappingURL=style.css.map */
